@@ -1,2 +1,9 @@
+# Robots.txt for SONIX 4K IPTV
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /checkout/thank-you/
+
+# Sitemap location
+Sitemap: https://sonix4k.shop/sitemap.xml

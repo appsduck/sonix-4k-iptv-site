@@ -36,10 +36,14 @@
   <!-- Google Fonts: Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  </noscript>
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="/css/style.css?v=21.0">
+  <link rel="stylesheet" href="/css/style.min.css?v=22.0">
 
   <!-- Breadcrumbs & WebPage Schema -->
   <script type="application/ld+json">
@@ -221,8 +225,7 @@
 
         <!-- Platform Navigation -->
         <div>
-          <h4 class="footer-col-title">Platform</h4>
-          <ul class="footer-links">
+          <h3 class="footer-col-title">Platform</h3>>
             <li><a href="index.html#features" class="footer-link">Channels &amp; VOD</a></li>
             <li><a href="index.html#pricing" class="footer-link">Pricing Plans</a></li>
             <li><a href="index.html#compatibility" class="footer-link">Supported Devices</a></li>
@@ -233,8 +236,7 @@
 
         <!-- Essential Legal & Support Pages (Google SEO) -->
         <div>
-          <h4 class="footer-col-title">Legal &amp; Trust</h4>
-          <ul class="footer-links">
+          <h3 class="footer-col-title">Legal &amp; Trust</h3>>
             <li><a href="privacy-policy.html" class="footer-link">Privacy Policy</a></li>
             <li><a href="refund-policy.html" class="footer-link">Refund &amp; 7-Day Guarantee</a></li>
             <li><a href="terms.html" class="footer-link">Terms of Service</a></li>

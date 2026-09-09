@@ -861,6 +861,12 @@ ul, ol {
 /* --------------------------------------------------------------------------
    Hero Categories Showcase (6 in row Desktop, 3 in row Mobile)
    -------------------------------------------------------------------------- */
+.hero-categories-section {
+  position: relative;
+  background-color: #060608;
+  padding-bottom: 2rem;
+}
+
 .hero-categories-container {
   position: relative;
   z-index: 3;

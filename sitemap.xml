@@ -50,4 +50,17 @@
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
+
+    <url>
+        <loc>https://sonix4k.shop/install-4k-iptv-firestick-max.html</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sonix4k.shop/setup-4k-iptv-firestick-android-sonix.html</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

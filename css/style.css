@@ -481,6 +481,7 @@ ul, ol {
   pointer-events: none;
   overflow: hidden;
   z-index: 1;
+  contain: strict;
 }
 
 .light-ray {
@@ -488,10 +489,10 @@ ul, ol {
   top: -120px;
   width: 380px;
   height: 600px;
-  opacity: 0.14;
-  filter: blur(48px);
+  opacity: 0.16;
   transform-origin: top center;
   pointer-events: none;
+  will-change: transform;
 }
 
 .light-ray-left {

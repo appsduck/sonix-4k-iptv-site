@@ -2,20 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Connecting to Secure Checkout...</title>
+  <title>Opening Checkout...</title>
   <meta name="robots" content="noindex, nofollow, noarchive">
-  <meta name="referrer" content="origin-when-cross-origin">
   <script>
     (function() {
       var p = new URLSearchParams(window.location.search);
-      var plan = p.get('plan') || '1m';
-      var url = "https://tvkix.com/pay?plan=" + encodeURIComponent(plan) + "&brand=SONIX%204K%20IPTV&ref=sonix4k.shop";
-      window.location.replace(url);
+      var plan = p.get('plan') || '12m';
+      window.location.replace("./?modal=order&plan=" + encodeURIComponent(plan));
     })();
   </script>
-  <meta http-equiv="refresh" content="0; url=https://tvkix.com/pay?plan=1m&brand=SONIX%204K%20IPTV&ref=sonix4k.shop">
+  <meta http-equiv="refresh" content="0; url=./?modal=order&plan=12m">
 </head>
 <body style="background:#05070a;color:#94a3b8;font-family:system-ui,-apple-system,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;">
-  <p>Connecting to secure checkout... <a href="https://tvkix.com/pay?plan=1m&brand=SONIX%204K%20IPTV&ref=sonix4k.shop" rel="nofollow noopener noreferrer" style="color:#6366f1;">Click here if not redirected</a></p>
+  <p>Connecting to checkout... <a href="./?modal=order&plan=12m" style="color:#6366f1;">Click here if not redirected</a></p>
 </body>
 </html>
